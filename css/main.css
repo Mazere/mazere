@@ -89,6 +89,16 @@ a.responsive-picture.picture-link-1 {
   max-width: 600px;
 }
 
+a.responsive-picture.picture-link-2 {
+  max-width: 30px;
+  width: 30%;
+}
+
+a.responsive-picture.picture-link-4 {
+  max-width: 30px;
+  width: 30%;
+}
+
 @media screen and (min-width: 40rem) {
   /* Text Elements */
 
@@ -213,6 +223,16 @@ a.responsive-picture.picture-link-1 {
     padding: 0 200px 100px;
     max-width: 500px;
     max-height: none;
+  }
+
+  a.responsive-picture.picture-link-2 {
+    max-width: 30px;
+    width: 30%;
+  }
+
+  a.responsive-picture.picture-link-4 {
+    max-width: 30px;
+    width: 30%;
   }
 }
 
@@ -350,6 +370,23 @@ a.responsive-picture.picture-link-1 {
     display: inline;
     float: none;
     width: 400px;
+  }
+
+  a.link-text span.text-link-text-1 {
+    color: #730021;
+  }
+
+  a.link-text span.text-link-text-2 {
+    color: #214119;
+  }
+
+  a.link-text.pdf-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    color: #730021;
+    font-weight: 700;
+    font-size: 19px;
   }
 
   a.link-text.text-link-1:hover {
@@ -532,6 +569,16 @@ a.responsive-picture.picture-link-1 {
 
   a.responsive-picture.picture-link-3 {
     max-width: 900px;
+  }
+
+  a.responsive-picture.picture-link-4 {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
+  a.responsive-picture.picture-link-2 {
+    padding-top: 5px;
+    padding-left: 5px;
   }
 
   li.list-item-container.link1.text:hover {
