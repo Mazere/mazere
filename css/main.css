@@ -182,15 +182,15 @@ a.responsive-picture.picture-link-4 {
     display:    -moz-box;
     display: -ms-flexbox;
     display:         flex;
-    -ms-flex-pack: start;
+    -ms-flex-pack: center;
     -ms-flex-align: end;
     min-width: 0;
     height: auto;
 
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-       -moz-box-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
     justify-self: center;
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
@@ -211,10 +211,15 @@ a.responsive-picture.picture-link-4 {
     display:    -moz-box;
     display: -ms-flexbox;
     display:         flex;
+    -ms-flex-pack: center;
 
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
   }
 
   div.responsive-picture.picture-1 {
@@ -315,7 +320,9 @@ a.responsive-picture.picture-link-4 {
   p.paragraph.paragraph-5 {
     padding-right: 0;
     padding-left: 30px;
-    text-align: justify;
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Montserrat', cursive;
   }
 
   p.paragraph.paragraph-6 {
@@ -327,7 +334,7 @@ a.responsive-picture.picture-link-4 {
   }
 
   p.paragraph.paragraph-7 {
-    text-align: justify;
+    text-align: left;
     font-weight: 500;
     font-family: 'Montserrat', cursive;
   }
@@ -453,9 +460,15 @@ a.responsive-picture.picture-link-4 {
   }
 
   .container.nav-wrapper {
+    -ms-flex-pack: start;
+
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+            justify-content: flex-start;
   }
 
   .container.container-1 {
