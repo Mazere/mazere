@@ -7,6 +7,36 @@ h1.heading-1 {
   font-family: 'Montserrat', cursive;
 }
 
+h1.heading-4 {
+  font-weight: 700;
+  font-family: 'Montserrat', cursive;
+}
+
+h1.headind-artist {
+  font-weight: 700;
+  font-family: 'Montserrat', cursive;
+}
+
+h1.heading-detail {
+  font-weight: 700;
+  font-family: 'Montserrat', cursive;
+}
+
+p.paragraph.Title-Guitar {
+  font-weight: 700;
+  font-family: 'Montserrat', cursive;
+}
+
+p.paragraph.paragraph-5 {
+  text-align: left;
+  font-family: 'Montserrat', cursive;
+}
+
+p.paragraph.paragraph-7 {
+  text-align: left;
+  font-family: 'Montserrat', cursive;
+}
+
 a.link-text.nav-button {
   display: block;
   padding-top: 10px;
@@ -26,6 +56,12 @@ a.link-text.footer.link {
 
 a.link-text.nav-button:hover {
   background-color: #040000;
+}
+
+/* Interaction Elements */
+
+a.link-button.button:hover {
+  background-color: #550f3a;
 }
 
 /* Layout Elements */
@@ -129,6 +165,20 @@ a.responsive-picture.picture-link-4 {
             align-self: center;
   }
 
+  p.paragraph.paragraph-5 {
+    text-align: left;
+  }
+
+  p.paragraph.Title-Guitar {
+    font-weight: 700;
+    font-family: 'Montserrat', cursive;
+  }
+
+  p.paragraph.paragraph-7 {
+    text-align: left;
+    font-family: 'Montserrat', cursive;
+  }
+
   a.link-text.nav-button {
     display: block;
     margin-right: 0;
@@ -136,6 +186,15 @@ a.responsive-picture.picture-link-4 {
     padding-top: 10px;
     padding-right: 10px;
     min-width: 400px;
+  }
+
+  a.link-text.text-link-1 {
+    text-align: left;
+    font-family: 'Montserrat', cursive;
+  }
+
+  a.link-text.pdf-link {
+    font-family: 'Montserrat', cursive;
   }
 
   /* Interaction Elements */
@@ -266,10 +325,11 @@ a.responsive-picture.picture-link-4 {
     max-width: 0;
     width: 0;
     text-align: center;
+    font-weight: 600;
   }
 
   h1.heading-detail {
-    padding-right: 805px;
+    padding-right: 785px;
     min-width: 2000px;
     max-width: 0;
     width: 0;
@@ -281,13 +341,31 @@ a.responsive-picture.picture-link-4 {
   }
 
   h1 span.heading-text-2 {
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h1 span.heading-text-3 {
     font-size: 2.3125rem;
+  }
+
+  h1 span.heading-text-4 {
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  h1 span.heading-text-5 {
+    font-weight: 600;
+  }
+
+  h1 span.heading-text-6 {
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  h1 span.heading-text-7 {
+    font-weight: 600;
   }
 
   p.paragraph.gallery.label {
@@ -351,7 +429,7 @@ a.responsive-picture.picture-link-4 {
 
   p.paragraph.Title-Guitar {
     font-weight: 700;
-    font-size: 27px;
+    font-size: 31px;
     font-family: 'Montserrat', cursive;
   }
 
