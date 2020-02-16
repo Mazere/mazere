@@ -159,7 +159,7 @@ body.Site.Title {
   display:    -moz-box;
   display: -ms-flexbox;
   display:         flex;
-  padding-left: 60px;
+  padding-left: 0;
 }
 
 div.responsive-picture {
@@ -280,7 +280,7 @@ a.responsive-picture.picture-link-3 {
     display:    -moz-box;
     display: -ms-flexbox;
     display:         flex;
-    padding-left: 145px;
+    padding-left: 10px;
   }
 
   a.responsive-picture.picture-link-3 {
