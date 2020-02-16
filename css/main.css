@@ -146,11 +146,20 @@ body.Site.Title {
 }
 
 .container.container-9 {
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .container.container-10 {
-  padding-left: 30px;
+  padding-left: 40px;
+}
+
+.container.collection.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  padding-left: 60px;
 }
 
 div.responsive-picture {
@@ -172,17 +181,22 @@ a.responsive-picture.picture-link-1 {
 }
 
 a.responsive-picture.picture-link-2 {
-  max-width: 30px;
-  width: 30%;
+  max-width: 20px;
+  width: 20%;
 }
 
 a.responsive-picture.picture-link-4 {
-  max-width: 30px;
-  width: 30%;
+  max-width: 20px;
+  width: 20%;
 }
 
 a.responsive-picture.gallery-link {
   max-width: 260px;
+}
+
+a.responsive-picture.picture-link-3 {
+  max-width: 350px;
+  width: 200%;
 }
 
 @media screen and (min-width: 24.875rem) {
@@ -258,6 +272,15 @@ a.responsive-picture.gallery-link {
     -webkit-justify-content: center;
        -moz-box-pack: center;
             justify-content: center;
+  }
+
+  .container.collection.section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    padding-left: 145px;
   }
 
   a.responsive-picture.picture-link-3 {
@@ -458,6 +481,7 @@ a.responsive-picture.gallery-link {
     display: -ms-flexbox;
     display:         flex;
     -ms-flex-pack: center;
+    padding-left: 0;
     min-width: 10px;
 
     -webkit-flex-wrap: wrap;
@@ -506,6 +530,10 @@ a.responsive-picture.gallery-link {
 
   li.list-item-container.list-item-container-7 {
     text-align: left;
+  }
+
+  .html-element.html-element-3 {
+    max-width: 700px;
   }
 }
 
@@ -722,6 +750,7 @@ a.responsive-picture.gallery-link {
 
   .container.collection.section {
     -ms-flex-pack: center;
+    padding-left: 0;
 
     -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
@@ -888,7 +917,7 @@ a.responsive-picture.gallery-link {
 
   a.responsive-picture.picture-link-3 {
     min-width: 500px;
-    max-width: 900px;
+    max-width: 550px;
   }
 
   a.responsive-picture.picture-link-4 {
@@ -903,6 +932,15 @@ a.responsive-picture.gallery-link {
 
   a.responsive-picture.picture-link-5 {
     min-width: 100px;
+  }
+
+  .html-element.html-element-2 {
+    max-width: none;
+    width: auto;
+  }
+
+  .html-element.html-element-3 {
+    max-width: 500px;
   }
 
   li.list-item-container.link1.text:hover {
