@@ -162,7 +162,16 @@ body.Site.Title {
   display:    -moz-box;
   display: -ms-flexbox;
   display:         flex;
-  padding-left: 50px;
+  padding-left: 10px;
+}
+
+.container.list-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  padding-left: 60px;
 }
 
 div.responsive-picture {
@@ -278,6 +287,15 @@ a.responsive-picture.picture-link-3 {
   }
 
   .container.collection.section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    padding-left: 145px;
+  }
+
+  .container.list-section {
     display: -webkit-box;
     display: -webkit-flex;
     display:    -moz-box;
@@ -506,6 +524,26 @@ a.responsive-picture.picture-link-3 {
 
   .container.sd-two-cols {
     text-align: center;
+  }
+
+  .container.list-section {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -ms-flex-pack: center;
+    padding-left: 0;
+    min-width: 10px;
+
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
   }
 
   div.responsive-picture.picture-1 {
@@ -816,6 +854,19 @@ a.responsive-picture.picture-link-3 {
 
   .container.container-3 {
     display: block;
+  }
+
+  .container.list-section {
+    -ms-flex-pack: center;
+    padding-left: 0;
+
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
   }
 
   div.responsive-picture.picture-1 {
