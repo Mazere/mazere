@@ -47,9 +47,14 @@ p.paragraph.Brand-Name {
 
 p.paragraph.gallery.label {
   display: block;
+  padding-right: .5rem;
+  padding-left: .5rem;
   width: 260px;
+  border-width: .1875rem;
+  border-style: solid;
   background-color: #858a8e;
   text-align: center;
+  white-space: nowrap;
 }
 
 a.link-text.nav-button {
@@ -174,6 +179,31 @@ body.Site.Title {
   padding-left: 60px;
 }
 
+.container.container-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+}
+
 div.responsive-picture {
   max-width: none;
 }
@@ -204,6 +234,7 @@ a.responsive-picture.picture-link-4 {
 
 a.responsive-picture.gallery-link {
   max-width: 260px;
+  border: .375rem solid #fff;
 }
 
 a.responsive-picture.picture-link-3 {
@@ -312,10 +343,23 @@ a.responsive-picture.picture-link-3 {
     display:    -moz-box;
     display: -ms-flexbox;
     display:         flex;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
 
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
   }
 
   a.responsive-picture.picture-link-3 {
@@ -325,6 +369,7 @@ a.responsive-picture.picture-link-3 {
   a.responsive-picture.gallery-link {
     padding-right: 0;
     padding-left: 0;
+    border: .1875rem solid #fff;
   }
 }
 
@@ -601,6 +646,17 @@ a.responsive-picture.picture-link-3 {
 
   .html-element.html-element-3 {
     max-width: 700px;
+    background-color: #fff;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+    opacity: .98;
+
+    background-blend-mode: normal;
   }
 }
 
@@ -907,6 +963,7 @@ a.responsive-picture.picture-link-3 {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-align: center;
 
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -915,6 +972,13 @@ a.responsive-picture.picture-link-3 {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
   }
 
   div.responsive-picture.picture-1 {
@@ -1042,7 +1106,11 @@ a.responsive-picture.picture-link-3 {
   }
 
   .html-element.html-element-3 {
-    max-width: 500px;
+    max-width: 700px;
+  }
+
+  a.responsive-picture.gallery-link {
+    border-color: #fff;
   }
 
   li.list-item-container.link1.text:hover {
