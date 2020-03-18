@@ -253,6 +253,8 @@ a.responsive-picture.picture-link-3 {
     max-width: 260px;
     max-height: 300px;
     height: 60px;
+    border-width: .25rem;
+    border-style: solid;
     text-align: center;
   }
 
@@ -302,6 +304,18 @@ a.responsive-picture.picture-link-3 {
     display: -ms-flexbox;
     display:         flex;
     padding-left: 145px;
+  }
+
+  .container.container-11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
   a.responsive-picture.picture-link-3 {
@@ -361,11 +375,12 @@ a.responsive-picture.picture-link-3 {
   }
 
   p.paragraph.gallery.label {
-    display: inline-block;
+    display: block;
     max-width: 260px;
     max-height: 60px;
     width: 260px;
     height: 60px;
+    border-width: .1875rem;
     background-color: #858a8e;
     text-align: center;
     white-space: pre-wrap;
@@ -549,6 +564,14 @@ a.responsive-picture.picture-link-3 {
             justify-content: center;
   }
 
+  .container.container-11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
   div.responsive-picture.picture-1 {
     position: static;
     display: block;
@@ -657,8 +680,11 @@ a.responsive-picture.picture-link-3 {
   }
 
   p.paragraph.gallery.label {
+    display: block;
     max-width: 260px;
     height: 70px;
+    border-width: .1875rem;
+    border-style: solid;
     background-color: #7b7b7b;
   }
 
@@ -870,6 +896,25 @@ a.responsive-picture.picture-link-3 {
     -webkit-justify-content: center;
        -moz-box-pack: center;
             justify-content: center;
+  }
+
+  .container.container-11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
   div.responsive-picture.picture-1 {
