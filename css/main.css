@@ -1110,6 +1110,7 @@ a.responsive-picture.picture-link-3 {
   }
 
   a.responsive-picture.gallery-link {
+    border-width: 0;
     border-color: #fff;
   }
 
