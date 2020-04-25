@@ -465,6 +465,10 @@ a.responsive-picture.picture-link-3 {
     font-size: 19px;
   }
 
+  p.paragraph span.paragraph-text-9 {
+    font-weight: 600;
+  }
+
   a.link-text.nav-button {
     display: block;
     margin-right: 0;
@@ -615,6 +619,18 @@ a.responsive-picture.picture-link-3 {
     display:    -moz-box;
     display: -ms-flexbox;
     display:         flex;
+  }
+
+  .container.container-12 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
   div.responsive-picture.picture-1 {
